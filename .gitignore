@@ -1,0 +1,35 @@
+# Large data files
+data/original_data/*.csv
+data/original_data/*.txt
+data/original_data/*.zip
+data/original_data/*.csv.gz
+data/processed/*.csv
+data/exports/*.csv
+data/*.csv
+*.gz
+*.zip
+*.tar
+
+# Sensitive configuration
+config/*.conf
+config/*.env
+*.password
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# DataGrip
+.idea/
+*.iml
